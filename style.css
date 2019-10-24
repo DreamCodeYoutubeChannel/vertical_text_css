@@ -1,0 +1,32 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  position: absolute;
+  width: 90%;
+  transform: translate(0, -50%);
+  top: 50%;
+  font-family: sans-serif;
+}
+
+h3 {
+  writing-mode: vertical-lr;
+  display: inline;
+  background: #01a3a4;
+  color: #fff;
+  padding: 15px;
+  word-spacing: 2px;
+  transform: rotate(180deg);
+  letter-spacing: 1.5px;
+}
+
+p {
+  display: inline;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  text-align: justify;
+  letter-spacing: 0.7px;
+}
